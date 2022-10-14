@@ -1,0 +1,192 @@
+/* -----BODY----- */
+body, h1, h2, h3 {
+  font-family: "Montserrat", "sans-serif";
+}
+
+/* -----ID----- */
+#title {
+  background-color: #ff4c68;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 22%;
+  text-align: center;
+}
+
+#footer {
+  background-color: #fff;
+  padding: 10%;
+  text-align: center;
+}
+
+/* -----ELEMENTS----- */
+h1 {
+  line-height: 1.5;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: white;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* -----CLASSES----- */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.brand {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: 100;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 70%;
+  border-radius: 80%;
+  margin-left: 15%;
+}
+
+.features-div {
+  text-align: center;
+  margin: 5% 10%;
+  background-color: #fff;
+}
+
+.icons {
+  color: #ef8172;
+  margin-bottom: 5%;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+.press-img {
+  width: 20%;
+  border-radius: 100%;
+  padding: 20px
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.card-div {
+  padding: 3% 2%;
+}
+
+.btns {
+  width: 100%;
+}
+
+.h3 {
+  font-size: 2.5rem;
+  font-family: "Montserrat", "sans-serif";
+  font-weight: Bold;
+  line-height: 2;
+  color: #fff;
+}
+
+.cta-btns {
+  margin: 2% 2% 4%;
+}
+
+.footer-icons {
+  margin: 3% 2%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:500px) {
+  .title-img {
+    width: 80%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  .h3 {
+    font-size: 1.5rem;
+  }
+  .img-div {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
+@media (max-width:991px) {
+  .kk {
+    text-align: center;
+}
